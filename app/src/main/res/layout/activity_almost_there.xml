@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue"
+    android:orientation="vertical"
+    tools:context=".AlmostThere">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="Almost There"
+            android:textColor="@color/hint"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:fontFamily="sans-serif-light"
+            />
+        <TextView
+            android:layout_marginLeft="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="14dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="gravity"
+            android:fontFamily="sans-serif-light"
+            android:text="Thankyou for registering with us. One more \nstep, you need to check your email \nto active your account"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:text="VERIFY"
+            android:textSize="17dp"
+            android:textColor="@color/hint"
+            android:background="@drawable/btnoutline"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgBlue"
+    tools:context=".VerifyAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/hint"
+            android:textSize="35sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="150dp"
+            android:text="Verify your Account"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/hint"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="We have send verification code to your email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"
+            android:paddingBottom="20dp"
+            android:hint="enter verification code here..."
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/edtshape"
+            android:backgroundTint="#FFFFFF"
+            android:textColorHint="#FFFFFF"/>
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="SEND"
+            android:textColor="@color/hint"
+            android:background="@drawable/btnoutline"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="doesn't get the code? "
+                android:gravity="right"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Resend"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
